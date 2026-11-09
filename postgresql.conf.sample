@@ -1,0 +1,5 @@
+# Minimal sample postgresql.conf used by the pg-quicktune README walkthrough.
+# pg-quicktune does not edit this file; it writes a separate tuned fragment.
+listen_addresses = 'localhost'
+max_connections = 100
+shared_buffers = 128MB
